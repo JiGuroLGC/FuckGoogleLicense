@@ -3,7 +3,7 @@
 
   <h1><a href="https://github.com/JiGuroLGC/KuaiSnap">FuckGoogleLicense</a></h1>
   
-  <h3>绕过谷歌服务证书校验</h3>
+  <h3>Bypass Google Service License Verification</h3>
   
 <!-- Labels: -->
   <!-- First row: -->
@@ -29,18 +29,18 @@
 <!-- Short description: -->
 
 <p>
-   <b>支持框架 | <a href="https://github.com/LSPosed/LSPosed">LSPosed</a> | <a href="https://github.com/LSPosed/LSPatch">LSPatch</a>
+   <b>Support Framework | <a href="https://github.com/LSPosed/LSPosed">LSPosed</a> | <a href="https://github.com/LSPosed/LSPatch">LSPatch</a>
 </b>
 </p>
 </div>
 
-## 语言
+## Language
 
 * [English description](README.md)
 
 * [中文说明](README.zh.md)
 
-## 介绍
+## Introduce
 
 <p align="center">
     <a href="https://github.com/JiGuroLGC/FuckGoogleLicense">
@@ -48,40 +48,40 @@
     </a>
 </p>
 
-**FuckGoogleLicense** 是一款绕过谷歌服务证书校验的模块，旨在使软件的使用更加方便简洁。
+**FuckGoogleLicense** is a module designed to bypass Google service certificate verification, aiming to make software usage more convenient and streamlined.
 
-## 说明
+## Notes
 
-> 在 GitHub 点击右上角 ⭐ Star 以支持我们在空余时间继续开发
+> Click the ⭐ Star icon in the top-right corner on GitHub to support our continued development in our spare time
 
-- 一切开发旨在学习和提升用户体验，请勿用于非法用途
-- 请勿用作商业用途或大肆分发，违者严惩
-- 由于个人原因，可能随时 **停止更新** 或 **删除项目**
-- 本模块完全免费，如果您支付费用才获取软件，那么您受骗了
+- All development is intended for learning and enhancing user experience; do not use for illegal purposes
+- Do not use for commercial purposes or mass distribution; violators will be severely punished
+- Due to personal circumstances, updates may be **discontinued** or the project **removed** at any time
+- This module is completely free; if you paid to obtain the software, you have been scammed
 
-## 证书校验
+## Certificate Verification
 
-### 谷歌证书校验是啥？
+### What is Google Certificate Verification?
 
-当我们平时在使用一些 **Google Play Store** 上的软件时，由于手机上未装谷歌服务框架，或框架版本过老，软件会弹出 **Something went wrong** 的对话框，以提示用户谷歌服务框架存在问题。
+When using apps from the **Google Play Store**, if your device lacks the Google Services Framework or has an outdated version, apps may display a **Something went wrong** dialog box indicating an issue with the Google Services Framework.
 
-> 出错了  
-> 在打开应用程序之前，请检查您的设备上启用了Google Play，并且您使用的是最新版本。如果问题仍然存在，尝试重新安装应用程序。
+> Something went wrong  
+> Check that Google Play is enabled on your device and that you're using an up-to-date version before opening the app. If the problem persists try reinstalling the app.
 
-软件会向 **Google Play** 的 **License** 服务发起连接握手，用于检测用户手机是否安装 **Google Play 服务** ，如果连接失败，就会弹出上面的对话框，然后强制退出软件。
+The app initiates a connection handshake with Google Play's License service to verify whether **Google Play Services** is installed on the user's device. If the connection fails, the above dialog appears and the app force-closes.
 
-但最重要的是，这些软件可能根本不需要 **Google 服务框架** 就可以正常运行，这对于一些去谷歌化的系统非常不友好。
+Crucially, these apps may not even require the **Google Services Framework** to function properly, making them highly incompatible with de-Googled systems.
 
-这就是此模块诞生的目的， **FuckGoogleLicense** 向用户提供了一种暂时性的方法，绕过谷歌官方的校验检测。
+This is precisely why this module exists. **FuckGoogleLicense** offers users a temporary workaround to bypass Google's official verification checks.
  
-## 开始使用
+## Getting Started  
 
-### 1. 下载  
-在[发行渠道](#release)中，选择合适的发行渠道，下载符合您系统环境的最新版本或者前往 **LSPosed** 官方页面进行下载。   
-如果您是特殊区域用户，因为网络环境而无法访问，请您转到[其他问题](#question)查看解答。
+### 1. Download  
+Select the appropriate release channel from the [Release Channels](#release) and download the latest version compatible with your system environment, or visit the **LSPosed** official page to download.  
+If you are a user in a restricted region unable to access the site due to network conditions, please refer to the [Other Issues](#question) section for solutions.
 
-### 2. 安装  
-在设备上安装安装包，事先阅读并同意 [《软件使用声明》](#statement)，然后在模块管理器中启用模块并勾选模块作用域。
+### 2. Installation  
+Install the package on your device. Read and agree to the [Software Usage Statement](#statement) beforehand. Then enable the module in the module manager and select the module scope.
 
 <!--
 <div align="center">
@@ -91,83 +91,83 @@
  </div>
  -->
 
-### 3. 运行  
-运行作用域软件 ，然后尽情享受吧 ！
+### 3. Run  
+Run the scope software, then enjoy it to the fullest!
 
 <span id="release"></span>
 
-## 发行渠道
+## Release Channels
 
-  | <img src="https://avatars.githubusercontent.com/in/15368?s=64&v=4" width = "30" height = "30" alt="LOGO"/> | [GitHub Releases](https://github.com/JiGuroLGC/FuckGoogleLicense/releases) | 正式版 |
+  | <img src="https://avatars.githubusercontent.com/in/15368?s=64&v=4" width = "30" height = "30" alt="LOGO"/> | [GitHub Releases](https://github.com/JiGuroLGC/FuckGoogleLicense/releases) | Official Version |
 |------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|-----------|
 
-| <img src="https://raw.githubusercontent.com/JiGuroLGC/Wonderless/main/img/gitee.png" width = "30" height = "30" alt="LOGO"/> | [Gitee Releases](https://gitee.com/jiguro/FuckGoogleLicense/releases) | 正式版 |
+| <img src="https://raw.githubusercontent.com/JiGuroLGC/Wonderless/main/img/gitee.png" width = "30" height = "30" alt="LOGO"/> | [Gitee Releases](https://gitee.com/jiguro/FuckGoogleLicense/releases) | Official Version |
 |-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|---------------|
 
-| <img src="https://avatars.githubusercontent.com/u/78217009?s=200&v=4?raw=true" width = "30" height = "30" alt="LOGO"/> | [Xposed-Modules-Repo](https://modules.lsposed.org/module/com.jiguro.fuckgoogle) | 正式版 |
+| <img src="https://avatars.githubusercontent.com/u/78217009?s=200&v=4?raw=true" width = "30" height = "30" alt="LOGO"/> | [Xposed-Modules-Repo](https://modules.lsposed.org/module/com.jiguro.fuckgoogle) | Official Version |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|-----------|
 
-| <img src="https://raw.githubusercontent.com/JiGuroLGC/KuaiSnap/main/img/lanzou.jpg" width = "30" height = "30" alt="LOGO"/> | [蓝奏云网盘 **(密码：8888)**](https://jiguro.lanzouw.com/i0Yi237uq9lc) | 正式版 (备用) |
+| <img src="https://raw.githubusercontent.com/JiGuroLGC/KuaiSnap/main/img/lanzou.jpg" width = "30" height = "30" alt="LOGO"/> | [蓝奏云网盘 **(Password：8888)**](https://jiguro.lanzouw.com/i0Yi237uq9lc) | Official Version (Standby) |
 |------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|-----------|
 
-本模块发布地址仅限于上述所列出的地址，从其他非正规渠道下载到的版本或对您造成任何影响均与我们无关。
+This module is only available for download from the addresses listed above. We are not responsible for any versions obtained through unauthorized channels or for any consequences that may arise from such actions.
 
 <span id="question"></span>
 
-## 其他问题
+## Other Issues
 
-### 问题一
-<font color="red">为什么 **FuckGoogleLicense** 没有在我的设备上正常运行？</font>
+### Question 1
+<font color="red">Why isn't **FuckGoogleLicense** working properly on my device?</font>
 
-**FuckGoogleLicense** 由 **AIDE Pro** 和 **Android IDE** 开发，在 *Android 10~15*  系统均测试成功，理论上适用于大多数用户 ，但是请确保您的安卓版本不要过低或过高。如果您在确认完这些条件后， **FuckGoogleLicense** 还是不能在您的设备上正常运行，可能是 **FuckGoogleLicense** 还未适配您的设备或 CPU 架构，请您向我们提交意见后，实时查看 **LSPosed** 的更新页面或关注[发行渠道](#release)中的渠道更新，静待下一个版本的更新升级。  
+**FuckGoogleLicense** is developed by **AIDE Pro** and **Android IDE**. It has been successfully tested on *Android 10 to 15* systems and should theoretically work for most users. However, please ensure your Android version is neither too low nor too high. If **FuckGoogleLicense** still fails to function properly on your device after confirming these conditions, it may not yet be compatible with your device or CPU architecture. Please submit your feedback to us and monitor the **LSPosed** update page or follow channel updates in the [release channels](#release) for the next version update.  
 
-### 问题二
-<font color="red">为什么使用 **FuckGoogleLicense** 后，应用还是会提示类似找不到谷歌服务的错误？</font>
+### Question 2
+<font color="red">Why does the app still display errors like "Google services not found" after using the **FuckGoogleLicense** ?</font>
 
-因为 **FuckGoogleLicense** 仅限于绕过谷歌官方的许可检测，一些软件本身的检测我们无法进行绕过，即使绕过检测，类似谷歌登录的一些功能也无法使用。所以我们说， **FuckGoogleLicense**  只是一个暂时性的绕过方法。  
+Because **FuckGoogleLicense** only bypasses Google's official license detection, we cannot circumvent certain software-specific checks. Even if detection is bypassed, features like Google login will remain inaccessible. Therefore, we state that **FuckGoogleLicense** is merely a temporary workaround.  
 
-### 问题三
-<font color="red">为何在用一些免 Root 框架时， 模块功能可能失效甚至作用域软件闪退？</font>
+### Question 3
+<font color="red">Why do certain module functions fail or even cause the scope software to crash when using some non-root frameworks?</font>
 
-该模块理论上支持免 Root 框架，但是在某些机型上，免 Root 框架的修改补丁可能会和 **FuckGoogleLicense** 或作用域软件的运行环境冲突，导致闪退或失效。在一些情况下，这些支持谷歌服务的软件都使用了谷歌加固，这使得我们不能改动原始安装包。遇到这种情况，您可以更换修补方法或框架。  
+This module theoretically supports root-free frameworks. However, on certain devices, the root-free framework's modification patches may conflict with the **FuckGoogleLicense** or the runtime environment of scope-based software, causing crashes or failure. In some cases, these Google-service-enabled applications utilize Google's security hardening, preventing modification of the original installation package. Should this occur, you may switch to an alternative patching method or framework.    
 
-### 问题四
-<font color="red">我是特殊区域用户，访问有问题怎么办 ？</font>
+### Question 4
+<font color="red">I am a user in a restricted region. What should I do if I encounter access issues?</font>
 
-没关系，我们为您准备了备用的下载链接，我们保证备用链接下载的软件和发行版是完全一样的，而且我们在 Gitee 等开源社区也有我们的仓库。您可以前往[发行渠道](#release)，移步到其他渠道下载 。
+No worries, we've prepared alternative download links for you. We guarantee that the software and release versions downloaded via these backup links are identical to the original. Additionally, our repositories are available on open-source platforms like Gitee. You can visit the [release channels](#release) to access other download options.
 
-## 设计原理
+## Design Principles
 
-### 详见 [MT论坛 --【全网首发】手撕谷歌服务校验](https://bbs.binmt.cc/thread-153126-1-1.html)
+### For details, see [MT论坛 --【全网首发】手撕谷歌服务校验](https://bbs.binmt.cc/thread-153126-1-1.html)
 
 <span id="statement"></span>
 
-## 免责声明
+## Disclaimer
 
 ```
-作者：JiGuro（以下简称"本人"或"声明者"）  
-欢迎使用"FuckGoogleLicense"模块（以下简称"本软件"），这是一个对作用域软件（以下简称"Hook 软件"）进行研究的模块。在使用本软件前，请确保您已仔细阅读并完全理解并同意《软件使用声明》（以下简称"本声明"）。未成年人应在监护人的指导下阅读、理解并同意本声明后，方可使用本软件。如您不同意本声明的任何内容，请勿使用本软件。  
-本软件代码系本人从互联网第三方公开渠道收集整理，分享仅供技术交流。依据《中华人民共和国计算机软件保护条例》相关规定，此软件仅用于学习和研究软件的设计思想与原理，严禁用于任何商业或非法目的。一旦学习研究目的达成，或用户决定不再用于学习研究目的，应立即将其从存储设备中彻底删除。用户需确保自身使用行为符合《中华人民共和国著作权法》、《中华人民共和国计算机软件保护条例》、《中华人民共和国网络安全法》、《中华人民共和国数据安全法》、《中华人民共和国个人信息保护法》等相关法律法规的规定，一切法律责任由使用者自行承担。  
-知识产权严格受法律保护，请勿侵权。若本软件所 Hook 软件包含或基于开源软件，用户使用本软件时亦需遵守相关开源许可证的条款。本人倡导并大力支持正版软件，正版软件的使用不仅能确保良好的用户体验和稳定的性能，更是对软件开发者创新和努力的尊重与支持。如果您发现 Hook 软件对您有帮助或您喜欢它，请积极支持正版。  
-在此，特别强调，本人分享本软件纯粹是为了学习交流之目的，不带有任何盈利意图。同时，用户应充分认识到，由于本软件代码来源的第三方属性及本人能力的局限性，本人无法对本软件的安全性（包括但不限于是否存在计算机病毒、恶意代码、后门程序、安全漏洞或侵犯隐私的功能）、合法性（如版权状态）提供任何形式的保证或担保。在任何情况下，声明者均不对因下载、安装、使用、无法使用或依赖本软件所导致的任何直接、间接、附带、特殊、惩罚性或后果性的损害（包括但不限于数据丢失、系统损坏、业务中断、利润损失、隐私泄露、法律纠纷等）承担任何责任，无论该等责任是基于合同、侵权（包括过失）、严格责任或其他法律理论产生，也无论声明者是否事先被告知该等损害的可能性。本人强烈建议用户弃用模块，并通过软件开发者官方渠道获取正版软件以确保安全性和合法性。本人承诺，本软件的分享过程中未主动植入任何计算机病毒、后门程序，也未故意设置任何用于侵犯用户隐私的功能。若用户发现本软件有此类问题，请务必及时联系本人，本人将立即采取删除等措施，坚决阻止本软件的进一步传播。  
-用户一旦运行或使用本软件，即视为已仔细阅读、完全理解且同意接受本声明的全部内容，并自愿承担因下载、安装、使用本软件所产生的一切法律责任和后果。请务必合法使用本软件，共同维护良好的网络环境和法律秩序。  
-本声明的最终解释权归声明者所有。
+Author: JiGuro (hereinafter referred to as "I" or "the declarant")  
+Welcome to the "FuckGoogleLicense" module (hereinafter referred to as "this software"), a tool for researching scope software (hereinafter referred to as "Hook software"). Before using this software, please ensure you have carefully read, fully understood, and agreed to the Software Usage Declaration (hereinafter referred to as "this declaration"). Minors must read, understand, and agree to this Statement under the guidance of a guardian before using this software. If you disagree with any part of this Statement, please do not use this software.  
+The code for this software was collected and organized by the author from publicly available third-party sources on the internet and is shared solely for technical exchange. In accordance with the relevant provisions of the Regulations of the People's Republic of China on the Protection of Computer Software, this software is intended solely for learning and researching the design concepts and principles of software. Its use for any commercial or illegal purposes is strictly prohibited. Once the purpose of study or research is achieved, or if the user decides to discontinue its use for such purposes, the software must be immediately and completely deleted from storage devices. Users must ensure their usage complies with relevant laws and regulations, including the Copyright Law of the People's Republic of China, the Regulations on the Protection of Computer Software of the People's Republic of China, the Cybersecurity Law of the People's Republic of China, the Data Security Law of the People's Republic of China, and the Personal Information Protection Law of the People's Republic of China. All legal liabilities shall be borne solely by the user.  
+Intellectual property is strictly protected by law; please refrain from infringement. If the software being hooked by this tool incorporates or is based on open-source software, users must also comply with the terms of the relevant open-source licenses when using this software. I advocate for and strongly support the use of licensed software. Utilizing licensed software not only ensures a superior user experience and stable performance but also demonstrates respect and support for the innovation and efforts of software developers. If you find the hooking software helpful or appreciate it, please actively support licensed versions.  
+It is hereby explicitly emphasized that the sharing of this software is solely for educational and exchange purposes, without any profit-making intent. Users should fully recognize that, due to the third-party nature of the software's source code and the limitations of my capabilities, I cannot provide any form of guarantee or warranty regarding the software's security (including but not limited to the absence of computer viruses, malicious code, backdoor programs, security vulnerabilities, or privacy-invading features) or legality (such as copyright status). Under no circumstances shall the declarant be liable for any direct, indirect, incidental, special, punitive, or consequential damages (including but not limited to data loss, system damage, business interruption, loss of profits, privacy breaches, legal disputes, etc.) arising from the download, installation, use, inability to use, or reliance on this software, whether such liability arises from contract, tort (including negligence), strict liability, or any other legal theory, and regardless of whether the declarant was previously informed of the possibility of such damages. I strongly advise users to discontinue use of the module and obtain genuine software through official channels provided by the software developer to ensure security and legality. I hereby pledge that during the sharing of this software, I have not intentionally implanted any computer viruses or backdoor programs, nor deliberately incorporated any features designed to infringe upon user privacy. Should users discover any such issues within this software, please contact me immediately. I will promptly take measures such as deletion to resolutely prevent further dissemination of this software.  
+By running or using this software, the user is deemed to have carefully read, fully understood, and agreed to accept all terms of this statement, and voluntarily assumes all legal liabilities and consequences arising from downloading, installing, or using this software. Please ensure lawful use of this software to jointly maintain a healthy online environment and legal order.  
+The final interpretation of this statement is reserved by the declarant.
 ```
 
-## 鸣谢
+## Acknowledgments
 
-| 名称         | 链接                                                                                  | 详情                     |
+| Name         | Link                                                                                  | Details                     |
 |--------------|---------------------------------------------------------------------------------------|--------------------------|
-| AIDE Pro     | ——                                                                                    | 开发打包软件             |
-| Android IDE  | [Android IDE - GitHub](https://github.com/AndroidIDEOfficial/AndroidIDE)             | 开发打包软件             |
+| AIDE Pro     | ——                                                                                    | Software for development and packaging             |
+| Android IDE  | [Android IDE - GitHub](https://github.com/AndroidIDEOfficial/AndroidIDE)             | Software for development and packaging             |
 
-## 支持我们
+## Support Us
 
-电子邮箱 : jigurolui@gmail.com / JiGuroLiu@qq.com  
-我们希望成为一个优秀的开发团队，持续为大家输出优秀的作品，如果您有什么改进意见，请您直接提出来，我们会继续加油。让我们在追梦的道路上不懈奋斗、砥砺前行！感谢大家的帮助与支持！
+Email: jigurolui@gmail.com / JiGuroLiu@qq.com  
+We aspire to be an outstanding development team, continuously delivering exceptional work for everyone. If you have any suggestions for improvement, please feel free to share them directly. We will keep striving to do better. Let us persevere relentlessly and forge ahead on our journey toward our dreams! Thank you for your help and support!
 
    <a href="https://raw.githubusercontent.com/JiGuroLGC/KuaiSnap/main/img/reward.png">
         <img src="https://raw.githubusercontent.com/JiGuroLGC/KuaiSnap/main/img/reward.png" alt="socialify"/>
     </a>
 
-版权所有 © 2025 JiGuro
+Copyright © 2025 JiGuro
