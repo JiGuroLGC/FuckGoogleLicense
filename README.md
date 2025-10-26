@@ -48,7 +48,7 @@
     </a>
 </p>
 
-**FuckGoogleLicense** is a module designed to bypass Google service certificate verification, aiming to make software usage more convenient and streamlined.
+**FuckGoogleLicense** is a module designed to bypass Google service License verification, aiming to make software usage more convenient and streamlined.
 
 ## Notes
 
@@ -59,9 +59,9 @@
 - Due to personal circumstances, updates may be **discontinued** or the project **removed** at any time
 - This module is completely free; if you paid to obtain the software, you have been scammed
 
-## Certificate Verification
+## License Verification
 
-### What is Google Certificate Verification?
+### What is Google License Verification?
 
 When using apps from the **Google Play Store**, if your device lacks the Google Services Framework or has an outdated version, apps may display a **Something went wrong** dialog box indicating an issue with the Google Services Framework.
 
