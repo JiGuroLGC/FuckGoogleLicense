@@ -1,7 +1,7 @@
 <div align="center">
 <!-- Title: -->
 
-  <h1><a href="https://github.com/JiGuroLGC/KuaiSnap">FuckGoogleLicense</a></h1>
+  <h1><a href="https://github.com/JiGuroLGC/FuckGoogleLicense">FuckGoogleLicense</a></h1>
   
   <h3>绕过谷歌服务证书校验</h3>
   
