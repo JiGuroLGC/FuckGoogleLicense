@@ -1,7 +1,7 @@
 <div align="center">
 <!-- Title: -->
 
-  <h1><a href="https://github.com/JiGuroLGC/KuaiSnap">FuckGoogleLicense</a></h1>
+  <h1><a href="https://github.com/JiGuroLGC/FuckGoogleLicense">FuckGoogleLicense</a></h1>
   
   <h3>Bypass Google Service License Verification</h3>
   
@@ -36,9 +36,9 @@
 
 ## Language
 
-* [English description](README.md)
+* [English description](https://github.com/JiGuroLGC/FuckGoogleLicense/blob/main/README.md)
 
-* [中文说明](README.zh.md)
+* [中文说明](https://github.com/JiGuroLGC/FuckGoogleLicense/blob/main/README.zh.md)
 
 ## Introduce
 
@@ -98,17 +98,12 @@ Run the scope software, then enjoy it to the fullest!
 
 ## Release Channels
 
-  | <img src="https://avatars.githubusercontent.com/in/15368?s=64&v=4" width = "30" height = "30" alt="LOGO"/> | [GitHub Releases](https://github.com/JiGuroLGC/FuckGoogleLicense/releases) | Official Version |
-|------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|-----------|
-
-| <img src="https://raw.githubusercontent.com/JiGuroLGC/Wonderless/main/img/gitee.png" width = "30" height = "30" alt="LOGO"/> | [Gitee Releases](https://gitee.com/jiguro/FuckGoogleLicense/releases) | Official Version |
-|-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|---------------|
-
-| <img src="https://avatars.githubusercontent.com/u/78217009?s=200&v=4?raw=true" width = "30" height = "30" alt="LOGO"/> | [Xposed-Modules-Repo](https://modules.lsposed.org/module/com.jiguro.fuckgoogle) | Official Version |
-|------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|-----------|
-
-| <img src="https://raw.githubusercontent.com/JiGuroLGC/KuaiSnap/main/img/lanzou.jpg" width = "30" height = "30" alt="LOGO"/> | [蓝奏云网盘 **(Password：8888)**](https://jiguro.lanzouw.com/i0Yi237uq9lc) | Official Version (Standby) |
-|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|-----------|
+| LOGO | Channel | Versions |
+|:----:|:-------:|:-----------:|
+| <img src="https://avatars.githubusercontent.com/in/15368?s=64&v=4" width="30" height="30" alt="LOGO"/> | [GitHub Releases](https://github.com/JiGuroLGC/FuckGoogleLicense/releases) | Official Version |
+| <img src="https://raw.githubusercontent.com/JiGuroLGC/Wonderless/main/img/gitee.png" width="30" height="30" alt="LOGO"/> | [Gitee Releases](https://gitee.com/jiguro/FuckGoogleLicense/releases) | Official Version |
+| <img src="https://avatars.githubusercontent.com/u/78217009?s=200&v=4?raw=true" width="30" height="30" alt="LOGO"/> | [Xposed-Modules-Repo](https://modules.lsposed.org/module/com.jiguro.fuckgoogle) | Official Version |
+| <img src="https://raw.githubusercontent.com/JiGuroLGC/KuaiSnap/main/img/lanzou.jpg" width="30" height="30" alt="LOGO"/> | [蓝奏云网盘 **(Password：8888)**](https://jiguro.lanzouw.com/i0Yi237uq9lc) | Official Version (Standby) |
 
 This module is only available for download from the addresses listed above. We are not responsible for any versions obtained through unauthorized channels or for any consequences that may arise from such actions.
 
