@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FuckGoogleLicense</string>
+    <string name="description">绕过谷歌服务证书校验\nBypass Google Service License Verification</string>
+
+</resources>

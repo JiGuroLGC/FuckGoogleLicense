@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 33
+    buildToolsVersion "33.0.0"
+    
+    defaultConfig {
+        applicationId "com.jiguro.fuckgoogle"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 2
+        versionName "2.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+	compileOnly fileTree(dir: 'libs/compile_only', include: ['*.jar'])
+}
