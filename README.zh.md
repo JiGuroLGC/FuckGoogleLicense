@@ -165,4 +165,4 @@
         <img src="https://raw.githubusercontent.com/JiGuroLGC/KuaiSnap/main/img/reward.png" alt="socialify"/>
     </a>
 
-版权所有 © 2025 JiGuro
+版权所有 © 2026 JiGuro
