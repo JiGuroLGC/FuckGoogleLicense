@@ -165,4 +165,4 @@ We aspire to be an outstanding development team, continuously delivering excepti
         <img src="https://raw.githubusercontent.com/JiGuroLGC/KuaiSnap/main/img/reward.png" alt="socialify"/>
     </a>
 
-Copyright © 2025 JiGuro
+Copyright © 2026 JiGuro
